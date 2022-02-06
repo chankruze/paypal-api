@@ -1,0 +1,24 @@
+{
+  "name": "paypal-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:chankruze/paypal-api.git",
+  "author": "chankruze <chankruze@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "helmet": "^5.0.2",
+    "memory-cache": "^0.2.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "NODE_ENV=development nodemon index.js"
+  }
+}
